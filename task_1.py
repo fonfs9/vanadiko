@@ -1,2 +1,3 @@
 def func():
-    pass
+    return 1 + 2
+
