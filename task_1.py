@@ -1,4 +1,4 @@
-def func():
+def simple_calculator_for_two_numbers():
     a = float(input("Введите первое число: "))
     b = float(input("Введите второе число: "))
 
@@ -7,12 +7,12 @@ def func():
     print("Произведение:", a * b)
     print("Частное:", a / b)
 
-    func()
 
-def func ():
+def area():
     length = float(input("Введите длину прямоугольника: "))
     width = float(input("Введите ширину прямоугольника: "))
     area = length * width
     print('площадь прямоугольника',area)
 
-func()
+simple_calculator_for_two_numbers()
+area()
