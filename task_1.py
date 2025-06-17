@@ -7,6 +7,9 @@ def func():
     print("Произведение:", a * b)
     print("Частное:", a / b)
 
+    func()
+
+def func ():
     length = float(input("Введите длину прямоугольника: "))
     width = float(input("Введите ширину прямоугольника: "))
     area = length * width
