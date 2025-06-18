@@ -1,0 +1,42 @@
+def true_false():
+    a = float(input("Введите первое число: "))
+    b = float(input("Введите второе число: "))
+
+    if a > b:
+        print("Да, первое число больше второго.")
+    else:
+        print("Нет, первое число меньше или равно второму.")
+
+def age():
+    a = float(input('введите ваш возраст'))
+
+    if a < 18:
+        print('вы не являетесь совершеннолетним')
+
+    else:
+        print('вы являетесь совершеннолетним')
+
+def even_number():
+
+    number = int(input("Введите число: "))
+
+    if number > 10 and number % 2 == 0:
+        print("Число больше 10 и чётное.")
+    else:
+        print("Число НЕ одновременно больше 10 и чётное.")
+
+def text():
+
+    text = input("Введите строку: ")
+
+    if not text:
+        print("Строка пустая.")
+    else:
+        print("Строка не пустая.")
+
+
+
+true_false()
+age()
+even_number()
+text()
