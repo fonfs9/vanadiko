@@ -6,7 +6,9 @@
 
 Пользователь вводит строку — проверь, пуста ли она.
 """
-def true_false():
+
+
+def check_first_number_is_greater_than_second():
     a = float(input("Введите первое число: "))
     b = float(input("Введите второе число: "))
 
@@ -15,17 +17,17 @@ def true_false():
     else:
         print("Нет, первое число меньше или равно второму.")
 
-def age():
+
+def check_age():
     a = float(input('введите ваш возраст'))
 
     if a < 18:
         print('вы не являетесь совершеннолетним')
-
     else:
         print('вы являетесь совершеннолетним')
 
-def even_number():
 
+def check_number_is_even_and_greater_10():
     number = int(input("Введите число: "))
 
     if number > 10 and number % 2 == 0:
@@ -33,8 +35,8 @@ def even_number():
     else:
         print("Число НЕ одновременно больше 10 и чётное.")
 
-def text():
 
+def check_text_is_empty():
     text = input("Введите строку: ")
 
     if not text:
@@ -43,8 +45,7 @@ def text():
         print("Строка не пустая.")
 
 
-
-true_false()
-age()
-even_number()
-text()
+check_first_number_is_greater_than_second()
+check_age()
+check_number_is_even_and_greater_10()
+check_text_is_empty()

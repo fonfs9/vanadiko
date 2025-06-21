@@ -4,7 +4,8 @@
 
 Используй кортеж как координаты точки (x, y) и выведи их по отдельности."""
 
-def cort():
+
+def create_tuple():
     numbers = (21, 12, 345)
     numbers_list = list(numbers)
     numbers_list.append(4)
@@ -13,12 +14,12 @@ def cort():
     print(numbers)
 
 
-cort()
-
-def XY():
+def get_coordinates_by_tuple():
     point = (3, 5)
 
     print("Координата X:", point[0])
     print("Координата Y:", point[1])
-XY()
 
+
+create_tuple()
+get_coordinates_by_tuple()
