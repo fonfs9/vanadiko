@@ -12,7 +12,8 @@ def area():
     length = float(input("Введите длину прямоугольника: "))
     width = float(input("Введите ширину прямоугольника: "))
     area = length * width
-    print('площадь прямоугольника',area)
+    print("площадь прямоугольника", area)
+
 
 simple_calculator_for_two_numbers()
 area()
