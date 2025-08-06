@@ -42,4 +42,5 @@ def ccc():
 
     difference = set1 - set2
     print("Разность:", difference)
+
 ccc()
