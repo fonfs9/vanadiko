@@ -1,16 +1,21 @@
-"""" Вывести таблицу умножения от 1 до 10.
+""" " Вывести таблицу умножения от 1 до 10.
 
 Программа спрашивает 5 чисел и выводит среднее.
 
 Игра: угадай число от 1 до 100 (с ограничением по попыткам).
 
-Найди все чётные числа от 1 до 100 и запиши их в список. """
+Найди все чётные числа от 1 до 100 и запиши их в список."""
+
+
 def cycle():
- for i in range(1,11):
-    for j in range(1,11):
-        result = i * j
-        print(i, "x", j, "=", result)
+    for i in range(1, 11):
+        for j in range(1, 11):
+            result = i * j
+            print(i, "x", j, "=", result)
+
+
 cycle()
+
 
 def middle_number():
     count = int(input("Сколько чисел вы хотите ввести? "))
@@ -20,7 +25,10 @@ def middle_number():
         numbers.append(number)
         average = sum(numbers) / len(numbers)
         print("Среднее арифметическое:", average)
+
+
 middle_number()
+
 
 def game():
     import random
@@ -54,10 +62,5 @@ def even():
 
     print("Чётные числа от 1 до 100:", even_numbers)
 
+
 even()
-
-
-
-
-
-
